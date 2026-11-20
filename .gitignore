@@ -1,0 +1,16 @@
+# large installer is supplied by the tester
+AcroRdrDCx642600322110_en_US.exe
+
+# generated test output / state
+results/*
+!results/.gitkeep
+work/*
+!work/.gitkeep
+
+# transient logs
+*.log
+
+# Adobe binaries are supplied/extracted at runtime (not redistributed)
+payload/setup.exe
+payload/setup.ini
+payload/abcpy.ini

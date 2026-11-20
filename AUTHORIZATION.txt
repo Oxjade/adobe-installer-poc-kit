@@ -1,0 +1,13 @@
+AUTHORIZED SECURITY TESTING ONLY
+
+This kit launches a self-extracting installer under test and may change system
+state (environment variables, temporary files, registry values under the Adobe
+ARM key, and a benign proof-of-concept MSI). Run it only on systems you own or
+are explicitly authorized to test, and preferably after a snapshot/backup.
+
+The included proof-of-concept MSI is benign: it installs a small executable
+(payload/poc.exe) whose only action is to write C:\poc-marker.txt as a deferred,
+no-impersonate custom action, demonstrating elevated code execution.
+
+Do not redistribute the bundled Adobe binaries (payload/setup.exe) or the
+installer. The installer is supplied by the tester and is not committed.
