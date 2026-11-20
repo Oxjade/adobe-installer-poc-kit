@@ -10,6 +10,14 @@ you accept the risk.
 
 ---
 
+## Reports
+
+- [Installer assessment (PDF)](docs/Adobe-Acrobat-Installer-Assessment.pdf)
+- [Installed-product assessment 26.003 (PDF)](docs/Adobe-Acrobat-Product-2600322110-Assessment.pdf)
+- Markdown sources: `docs/findings-report.md`, `docs/product-findings-report.md`
+- Rebuild: `python3 tools/md2pdf.py docs/findings-report.md docs/out.pdf "Title"` (needs `markdown` + `weasyprint`)
+
+
 ## Why native Windows
 
 The PoCs need real UAC/integrity levels, the AppInfo elevation path, the SYSTEM
